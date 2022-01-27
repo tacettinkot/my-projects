@@ -18,6 +18,7 @@ def third():
 def forth(id):
     return f'Id of this page is {id}'
 
+# Default port is 5000 but if we define it could be different number
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, port=2000)
 
